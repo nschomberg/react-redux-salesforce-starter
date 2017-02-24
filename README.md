@@ -12,15 +12,11 @@ By default, this package comes with the following packages:
 
 3. **immutable / immutable-prop-types / react-immutable-render-mixin**; used for managing your  data without having to worry about mutations. the additional libraries deal with the changes that immutable brings into the application
 
-4. **react-router / react-router-redux**; used to manage routing and handle updates to routes. react-router-redux connects this information into your redux state store for easy access.
+4.  **normalizr / reslect**; used to simplify interactions with "nested" data and redux. see their docs for more information.
 
-5. **material-ui**; hooks for Google's Material UI standard. Useful if you don't want to start with zero styling.
+5.  **redux-actions**; used to remove boiler plate code when defining actions and handling those actions; also helps standardize your action definitions.
 
-6.  **normalizr / reslect**; used to simplify interactions with "nested" data and redux. see their docs for more information.
-
-7.  **redux-actions**; used to remove boiler plate code when defining actions and handling those actions; also helps standardize your action definitions.
-
-8. **i18next / react-i18n**; i18n helpers for react. currently, only setup for dead-simple internationalization.
+6. **force-vrolayer**; data layer for switching between remote objects and API when developing Visualforce applications
 
 ## What does the Webpack Config produce?
 
@@ -66,7 +62,6 @@ This package comes with the following scripts to begin:
 | reselect | MIT | Helpers for manipulating data stores efficently |
 | normalizr | MIT | Handles normalization (flattening) of deeply nested JSON. |
 | redux-normalizr-middleware | MIT | Handles "normalization" of data passing through redux |
-| react-facebook-login | MIT | Simplify the login process with Facebook, primarily for demoing aws-sdk |
 | i18next | MIT | Handles internationalization |
 | react-i18next | MIT | Handles linking i18next to react components |
 
