@@ -74,7 +74,7 @@
     "phantomjs-prebuilt": "~2.1.14",
     "react-addons-test-utils": "~15.4.2",
     "react-hot-loader": "~3.0.0-beta.6",
-    "salesforce-resources-webpack-plugin": "github:john-benson/salesforce-resources-webpack-plugin#0.3.1",
+    "salesforce-resources-webpack-plugin": "github:john-benson/salesforce-resources-webpack-plugin#0.4.0",
     "sass-loader": "~4.1.1",
     "style-loader": "~0.13.1",
     "webpack": "~2.2.1",
