@@ -84,7 +84,7 @@
   },
   "dependencies": {
     "@salesforce-ux/design-system": "^2.2.1",
-    "force-vrolayer": "github:abatish/force-vrolayer#1.1.0",
+    "force-vrolayer": "github:john-benson/force-vrolayer#1.1.6",
     "react-lightning-design-system": "^2.2.3",
     "immutable": "~3.8.1",
     "normalizr": "~3.1.0",
