@@ -4,11 +4,7 @@ import { SF_APP_CLIENT_ID, SF_APP_REDIRECT_URL } from 'APP_CONFIG';
 import remoteObject from 'remoteObjects';
 import './index.scss';
 
-import '@salesforce-ux/design-system/assets/icons/utility-sprite/svg/symbols.svg';
-import '@salesforce-ux/design-system/assets/icons/action-sprite/svg/symbols.svg';
-import '@salesforce-ux/design-system/assets/icons/standard-sprite/svg/symbols.svg';
-import '@salesforce-ux/design-system/assets/icons/custom-sprite/svg/symbols.svg';
-
+require.context('@salesforce-ux/design-system/assets/icons', true, /.*-sprite\/svg\/.*\.svg/);
 
 export default () => {
   util.setAssetRoot(`${(window['__STATIC_RESOURCE_ZIP'] || '') + '/assets'}`);
