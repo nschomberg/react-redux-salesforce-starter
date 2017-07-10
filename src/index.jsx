@@ -1,7 +1,9 @@
+import './entry.js';
 import ReactDOM from 'react-dom';
 import React from 'react';
 import { AppContainer } from 'react-hot-loader';
 import App from 'app';
+import { VERSION, RELEASE } from 'APP_CONFIG';
 
 // this file "kicks off" the application.
 // it's where we define where our application will hook into DOM
@@ -24,3 +26,5 @@ if (module.hot) {
     renderApp(NextRoot);
   });
 }
+
+window['__APP_INFO'] = { VERSION, RELEASE };
