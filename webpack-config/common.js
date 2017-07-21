@@ -2,7 +2,6 @@
 
 const PATHS = require('./paths');
 const path = require('path');
-const pkg = require('../package.json');
 const webpack = require('webpack');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
